@@ -15,12 +15,12 @@ namespace tpmod3_1302204011
             kodePos Mengger = new kodePos("Mengger", 40267);
             kodePos Wates = new kodePos("Wates", 40256);
             kodePos Cijaura = new kodePos("Cijaura", 40287);
-            kodePos Jatisari = new kodePos("Kujangsari", 40286);
-            kodePos Margasari = new kodePos("Kujangsari", 40286);
-            kodePos Sekejati = new kodePos("Kujangsari", 40286);
-            kodePos Kebonwaru = new kodePos("Kujangsari", 40272);
-            kodePos Maleer = new kodePos("Kujangsari", 40274);
-            kodePos Samoja = new kodePos("Kujangsari", 40273);
+            kodePos Jatisari = new kodePos("Jatisari", 40286);
+            kodePos Margasari = new kodePos("Margasari", 40286);
+            kodePos Sekejati = new kodePos("Sekejati", 40286);
+            kodePos Kebonwaru = new kodePos("Kebonwaru", 40272);
+            kodePos Maleer = new kodePos("Maleer", 40274);
+            kodePos Samoja = new kodePos("Samoja", 40273);
         }
     }
     public class kodePos
@@ -43,5 +43,12 @@ namespace tpmod3_1302204011
         {
             return;
         }
+    }
+
+    public class doorMachine
+    {
+        string terkunci, terbuka;
+
+        if (terkunci == true)
     }
 }
